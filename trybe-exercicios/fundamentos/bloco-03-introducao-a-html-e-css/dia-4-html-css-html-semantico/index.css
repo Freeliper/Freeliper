@@ -12,7 +12,7 @@ h1 {
     text-align: center;
     width: 200px;
     display: block;
-    margin-left: 780px;
+    margin: auto;
   }
 
   .second {
@@ -22,6 +22,7 @@ h1 {
     text-align: center;
     width: 300px;
     display: inline-block;
+    margin: auto;
     }
 
   .third {
@@ -31,6 +32,7 @@ h1 {
     text-align: center;
     width: 300px;
     display: inline-block;
+    margin: auto;
   }
 
   li {
