@@ -1,0 +1,38 @@
+body{
+    background:linear-gradient(315deg, #5cf64aff, #72ef4eff, #87e752ff, #7cde79ff, #77d98cff, #6fd2a9ff, #66cac5ff, #68c8d9ff, #70cae4ff, #78cbefff);
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#title, h1, h2, h3{
+    text-align: center;
+    margin: 100px;
+}
+article{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+#shrimp{
+    width: 400;
+    height: 310px;
+    margin-left: 200px;
+}
+table{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#wild{
+  margin-left: 200px;
+}
+#boxer{
+  width: 500px;
+  margin-left: 650px;
+}
+.fortes{
+  margin: 100px;
+}
+#ultimaf{
+  width: 500px;
+  margin-left: 650px;
+}
