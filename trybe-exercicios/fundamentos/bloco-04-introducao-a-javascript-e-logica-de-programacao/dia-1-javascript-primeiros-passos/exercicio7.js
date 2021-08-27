@@ -3,17 +3,17 @@
 let score = 93;
 
 if (score < 0 || score > 100) {
-  console.log("Error, invalid score")
+  console.log("Error, invalid score");
 } else if (score >= 90) {
-  console.log("Grade -> A")
+  console.log("Grade -> A");
 } else if (score >= 80) {
-  console.log("Grade -> B")
+  console.log("Grade -> B");
 } else if (score >= 70) {
-  console.log("Grade -> C")
+  console.log("Grade -> C");
 } else if (score >= 60) {
-  console.log("Grade -> D")
+  console.log("Grade -> D");
 } else if (score >= 50) {
-  console.log("Grade -> E")
+  console.log("Grade -> E");
 } else {
-  console.log("Grade -> F")
+  console.log("Grade -> F");
 }
