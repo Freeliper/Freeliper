@@ -40,19 +40,20 @@ if (salarioBruto <= 1556.94) {
   inssAliquota = 570.88;
 }
 
+let salarioLiquido = salarioBruto - inssAliquota;
 
-if (salarioBruto - inssAliquota <= 1903.38) {
+if (salarioLiquido <= 1903.38) {
   irAliquota = 0;
-} else if (salarioBruto - inssAliquota > 1903.38 && salarioBruto - inssAliquota <= 2826.65) {
-  irAliquota = (salarioBruto - inssAliquota) * 0.075 - 142.80
-} else if (salarioBruto - inssAliquota > 2826.65 && salarioBruto - inssAliquota <= 3751.05) {
-  irAliquota = (salarioBruto - inssAliquota) * 0.15 - 354.8
-} else if (salarioBruto - inssAliquota > 3751.05 && salarioBruto - inssAliquota <= 4664.68) {
-  irAliquota = (salarioBruto - inssAliquota) * 0.225 - 636.13
+} else if (salarioLiquido > 1903.38 && salarioLiquido <= 2826.65) {
+  irAliquota = (salarioLiquido) * 0.075 - 142.80
+} else if (salarioLiquido > 2826.65 && salarioLiquido <= 3751.05) {
+  irAliquota = (salarioLiquido) * 0.15 - 354.8
+} else if (salarioLiquido > 3751.05 && salarioLiquido <= 4664.68) {
+  irAliquota = (salarioLiquido) * 0.225 - 636.13
 } else {
-  irAliquota = (salarioBruto - inssAliquota) * 0.275 - 869.36
+  irAliquota = (salarioLiquido) * 0.275 - 869.36
 }
 
-let salarioLiquido = salarioBruto - inssAliquota - irAliquota;
-console.log(salarioLiquido)
+salarioLiquido = salarioBruto - inssAliquota - irAliquota;
+console.log("Seu salario líquido é: " + salarioLiquido)
 
